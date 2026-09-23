@@ -2,3 +2,23 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(168, 232, 246);
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 740px;
+}
+
+.div {
+    box-sizing: border-box;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* 740 / 16 = 46.25
+44px de contenido
++ 2px de bordes
+= 46px
+*/
